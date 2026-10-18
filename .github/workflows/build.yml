@@ -26,10 +26,10 @@ jobs:
         run: gradle --no-daemon assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: Jhilik-apk
+          name: Mariya-apk
           path: src/app/build/outputs/apk/debug/app-debug.apk
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: apk-${{ github.run_number }}
-          name: Jhilik APK ${{ github.run_number }}
+          name: Mariya APK ${{ github.run_number }}
           files: src/app/build/outputs/apk/debug/app-debug.apk
