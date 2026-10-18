@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Maria" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/maria_bg</item>
+        <item name="android:statusBarColor">@color/maria_bg</item>
+        <item name="android:navigationBarColor">@color/maria_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
